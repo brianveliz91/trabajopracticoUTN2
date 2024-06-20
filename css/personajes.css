@@ -40,10 +40,7 @@ header{
       color: white;
       text-decoration: none;
     }
-  
-    li {
-      padding: ;
-    }
+
   
 
 h1 {
@@ -181,3 +178,14 @@ h1 {
     color: #6b4226;
     margin: 2px 0;
 }
+
+  
+@media (max-width: 880px) {
+   
+    }
+  
+  
+  @media (max-width: 480px) {
+   
+    }
+  

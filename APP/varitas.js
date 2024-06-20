@@ -80,16 +80,17 @@ document.addEventListener('DOMContentLoaded', function () {
             const varitaElement = document.createElement('div');
             varitaElement.classList.add('varita');
             varitaElement.innerHTML = `
-                <h2>${varita.dueño}</h2>
+                
                 <ul>
                   
                   <img src="${varita.image}" alt="${varita.owner}">
                   <div>
-
+                    
+                    <h2>${varita.dueño}</h2>
                     <li><strong>Madera:</strong> ${varita.madera}</li>
                     <li><strong>Núcleo:</strong> ${varita.centro}</li>
                     <li><strong>Longitud:</strong> ${varita.tamaño}</li>
-                    <li><strong>Flexibilidad:</strong> ${varita.flexibilidad}</li> : ''}
+                    <li><strong>Flexibilidad:</strong> ${varita.flexibilidad}</li> 
 
                     </div>
                 </ul>
