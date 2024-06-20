@@ -1,0 +1,183 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f5f5dc;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 20px;
+    background-image: url('../assets/fondo\ mapa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+header{
+    background-color: #343a40;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  header img {
+      width: 50px; 
+      height: auto;
+      margin: 0 10px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+    
+    nav ul li {
+      margin: 0 1em;
+    }
+    
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    li {
+      padding: ;
+    }
+  
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #4b2e83;
+    text-shadow: 2px 2px 5px #9b6d4d;
+    margin-bottom: 20px;
+}
+
+#search {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 1.2em;
+    border: 2px solid #4b2e83;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    font-size: 2em;
+    color: #4b2e83;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px #8a7b9e;
+}
+
+.lista-de-personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character {
+    border: 2px solid #4b2e83;
+    border-radius: 10px;
+    background-color: #fff8e7;
+    margin: 10px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.character:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.character h3 {
+    font-size: 1.2em;
+    color: #6b4226;
+    margin-bottom: 10px;
+}
+
+.character img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.character p {
+    font-size: 0.9em;
+    color: #6b4226;
+}
+
+.character::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 150%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: skewX(-25deg);
+    transition: all 0.5s;
+}
+
+.character:hover::before {
+    left: 125%;
+}
+
+.character::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.character:hover::after {
+    width: 200%;
+    height: 200%;
+    left: -50%;
+    top: -50%;
+}
+
+.character-no-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff8e7;
+    border: 2px solid #4b2e83;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.character-no-image:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.character-no-image h3 {
+    font-size: 1.2em;
+    color: #6b4226;
+    margin-bottom: 10px;
+}
+
+.character-no-image p {
+    font-size: 0.9em;
+    color: #6b4226;
+    margin: 2px 0;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personajes de Harry potter</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap">
+  <link rel="stylesheet" href="../css/personajes.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <img src="../assets/harrypixel.png" alt="harry pixel">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="pages/personajes.html">Personajes</a></li>
+        <li><a href="./varitas.html">Varitas</a></li>
+        <img src="../assets/voldemortpixel.png" alt="voldemort pixel">
+      </ul>
+    </nav>
+  </header>
+  <h1>Personajes de Harry potter</h1>
+  <input type="text" id="search" placeholder="Busca tu personaje..." />
+  <div>
+    <div class="titulo">Personajes Principales</div>
+    <div id="personajes-con-imagen" class="lista-de-personajes"></div>
+  </div>
+  <div>
+    <div class="titulo">Personajes secundarios</div>
+    <div id="personajes-sin-imagen" class="lista-de-personajes"></div>
+  </div>
+
+  <script src="../APP/fetch.js"></script>
+</body>
+
+</html>

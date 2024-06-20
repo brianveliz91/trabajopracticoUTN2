@@ -1,0 +1,121 @@
+
+   body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f5f5dc;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 20px;
+    background-image: url('../assets/fondo\ mapa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+header{
+    background-color: #343a40;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  header img {
+      width: 50px; 
+      height: auto;
+      margin: 0 10px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+    
+    nav ul li {
+      margin: 0 10px;
+    }
+    
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+  
+
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #4b2e83;
+    text-shadow: 2px 2px 5px #9b6d4d;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff8e7;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #4b2e83;
+    text-shadow: 1px 1px 3px #8a7b9e;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #6b4226;
+}
+
+#peliculas img {
+    max-width: auto
+    margin: 10px 0;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.casa, .hechizo {
+    border: 2px solid #4b2e83;
+    border-radius: 10px;
+    background-color: #fff8e7;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.casa img {
+    max-width: 50%;
+    margin: 10px 0;
+}
+
+.casa:hover, .spell:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #4b2e83;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px #8a7b9e;
+}
+
+#api-descripcion {
+    margin-bottom: 40px;
+}
+

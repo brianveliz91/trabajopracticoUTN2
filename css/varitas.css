@@ -1,0 +1,111 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #f5f5dc;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 20px;
+  background-image: url('../assets/fondo\ mapa.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header{
+  background-color: #343a40;
+  color: white;
+  padding: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+    width: 50px; 
+    height: auto;
+    margin: 0 10px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li {
+    padding: ;
+  }
+
+
+  #search {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 1.2em;
+    border: 2px solid #4b2e83;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #4b2e83;
+    text-shadow: 2px 2px 5px #9b6d4d;
+    margin-bottom: 20px;
+}
+
+.varita {
+    background-color: #fff;
+    border: 2px solid #4b2e83;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex
+    
+   
+}
+
+.varita img {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.varita ul {
+  display: flex;
+  width: ;
+  
+}
+
+.varita div {
+    flex-grow: 1;
+}
+
+.varita h2 {
+    margin-top: 0;
+}
+
+.varita ul {
+    list-style: none;
+    padding: 0;
+}
+
+.varita ul li {
+    margin-bottom: 5px;
+}
